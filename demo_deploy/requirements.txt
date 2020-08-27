@@ -1,0 +1,14 @@
+tesseract== 4.0.0-beta.1
+re==2.2.1 
+numpy==1.18.2
+opencv==4.2.0
+skimage==0.16.2
+torch==1.4.0
+PIL==7.1.0
+scipy==1.4.1
+python==3.7
+pytesseract==0.3.4
+flask==1.1.2
+flask_httpauth==4.1.0
+flask_restful==0.3.8
+gunicorn==20.0.4

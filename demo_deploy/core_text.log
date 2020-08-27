@@ -1,0 +1,6 @@
+2020-08-20 12:44:22,365 recognize_text:86 get_strings_with_ocr -core_text.log - DEBUG -  The image input is /home/anil/Desktop/text/4.jpg, card type Adhar, card template <class 'dict'>, full data False
+2020-08-20 12:44:22,388 recognize_text:89 get_strings_with_ocr -core_text.log - DEBUG - The output of method verify image validity is <class 'numpy.ndarray'>
+2020-08-20 12:44:22,388 preprocessing_image:105 perspective_transform -core_text.log - DEBUG - The type of image in perspective transform method from preprocessing_image is <class 'numpy.ndarray'>
+2020-08-20 12:44:22,410 preprocessing_image:165 text_align_horizontal -core_text.log - DEBUG - The angle of text in image is 0.0
+2020-08-20 12:44:22,433 recognize_text:45 ocr_engine -core_text.log - INFO - Successfully running on posix
+2020-08-20 12:44:23,196 text_processing:12 filtering_raw_text -core_text.log - DEBUG - Input to filtering_raw_text method from text_processing module: text <class 'dict'>, card_type Adhar, card_template {'f_name': 'Rohit'}, full_data False

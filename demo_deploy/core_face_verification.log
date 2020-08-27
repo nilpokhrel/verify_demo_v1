@@ -1,0 +1,42 @@
+2020-08-26 13:38:30,713 predict:44 <module> -predict - DEBUG - Models loaded successfully: device,resnet,mtcnn
+2020-08-26 13:38:30,721 _internal:113 _log -werkzeug - WARNING -  * Debugger is active!
+2020-08-26 13:38:30,740 _internal:113 _log -werkzeug - INFO -  * Debugger PIN: 385-242-064
+2020-08-26 13:38:30,873 predict:26 verify -predict - DEBUG - username admin and password @intelligent_universe
+2020-08-26 13:38:30,873 predict:130 post -predict - DEBUG - ----------------------------------------TEXT RECOGNITION LOG-----------------------------------------------
+2020-08-26 13:38:30,873 predict:131 post -predict - DEBUG - <Request 'http://127.0.0.1:5000/demo-ocr' [POST]>
+2020-08-26 13:38:30,878 predict:142 post -predict - DEBUG - File extension in ocr: .jpg
+2020-08-26 13:38:30,878 predict:145 post -predict - DEBUG - File size in ocr: 70.173828125 KB
+2020-08-26 13:38:30,887 predict:153 post -predict - DEBUG - Image verification in ocr True
+2020-08-26 13:38:31,620 _internal:113 _log -werkzeug - INFO - 127.0.0.1 - - [26/Aug/2020 13:38:31] "[37mPOST /demo-ocr HTTP/1.1[0m" 200 -
+2020-08-26 13:38:34,156 predict:26 verify -predict - DEBUG - username admin and password @intelligent_universe
+2020-08-26 13:38:34,157 predict:56 post -predict - DEBUG -  -------------------------FACE VERIFICATION LOG-------------------------------------------
+2020-08-26 13:38:34,157 predict:57 post -predict - DEBUG - <Request 'http://127.0.0.1:5000/demo-face_match' [POST]>
+2020-08-26 13:38:34,279 predict:70 post -predict - DEBUG - file1 extension and file2 extension .jpg .jpg
+2020-08-26 13:38:34,280 predict:74 post -predict - DEBUG - Size of files: 2815.1298828125 KB and 1142.45703125 KB
+2020-08-26 13:38:34,283 predict:84 post -predict - DEBUG - Image verifications: True True
+2020-08-26 13:38:36,519 predict:100 post -predict - DEBUG - Face sizes in image: True and True
+2020-08-26 13:38:37,779 predict:26 verify -predict - DEBUG - username admin and password @intelligent_universe
+2020-08-26 13:38:37,780 predict:130 post -predict - DEBUG - ----------------------------------------TEXT RECOGNITION LOG-----------------------------------------------
+2020-08-26 13:38:37,780 predict:131 post -predict - DEBUG - <Request 'http://127.0.0.1:5000/demo-ocr' [POST]>
+2020-08-26 13:38:37,784 predict:142 post -predict - DEBUG - File extension in ocr: .jpg
+2020-08-26 13:38:37,784 predict:145 post -predict - DEBUG - File size in ocr: 70.173828125 KB
+2020-08-26 13:38:37,785 predict:153 post -predict - DEBUG - Image verification in ocr True
+2020-08-26 13:38:38,578 predict:116 post -predict - DEBUG - The similarity distance is : 0.30547839403152466
+2020-08-26 13:38:38,582 _internal:113 _log -werkzeug - INFO - 127.0.0.1 - - [26/Aug/2020 13:38:38] "[37mPOST /demo-face_match HTTP/1.1[0m" 200 -
+2020-08-26 13:38:39,180 _internal:113 _log -werkzeug - INFO - 127.0.0.1 - - [26/Aug/2020 13:38:39] "[37mPOST /demo-ocr HTTP/1.1[0m" 200 -
+2020-08-26 13:38:42,040 predict:26 verify -predict - DEBUG - username admin and password @intelligent_universe
+2020-08-26 13:38:42,041 predict:56 post -predict - DEBUG -  -------------------------FACE VERIFICATION LOG-------------------------------------------
+2020-08-26 13:38:42,041 predict:57 post -predict - DEBUG - <Request 'http://127.0.0.1:5000/demo-face_match' [POST]>
+2020-08-26 13:38:42,165 predict:70 post -predict - DEBUG - file1 extension and file2 extension .jpg .jpg
+2020-08-26 13:38:42,167 predict:74 post -predict - DEBUG - Size of files: 2815.1298828125 KB and 1142.45703125 KB
+2020-08-26 13:38:42,171 predict:84 post -predict - DEBUG - Image verifications: True True
+2020-08-26 13:38:44,110 predict:100 post -predict - DEBUG - Face sizes in image: True and True
+2020-08-26 13:38:44,944 predict:26 verify -predict - DEBUG - username admin and password @intelligent_universe
+2020-08-26 13:38:44,946 predict:130 post -predict - DEBUG - ----------------------------------------TEXT RECOGNITION LOG-----------------------------------------------
+2020-08-26 13:38:44,946 predict:131 post -predict - DEBUG - <Request 'http://127.0.0.1:5000/demo-ocr' [POST]>
+2020-08-26 13:38:44,954 predict:142 post -predict - DEBUG - File extension in ocr: .jpg
+2020-08-26 13:38:44,954 predict:145 post -predict - DEBUG - File size in ocr: 70.173828125 KB
+2020-08-26 13:38:44,955 predict:153 post -predict - DEBUG - Image verification in ocr True
+2020-08-26 13:38:46,610 predict:116 post -predict - DEBUG - The similarity distance is : 0.30547839403152466
+2020-08-26 13:38:46,617 _internal:113 _log -werkzeug - INFO - 127.0.0.1 - - [26/Aug/2020 13:38:46] "[37mPOST /demo-face_match HTTP/1.1[0m" 200 -
+2020-08-26 13:38:47,040 _internal:113 _log -werkzeug - INFO - 127.0.0.1 - - [26/Aug/2020 13:38:47] "[37mPOST /demo-ocr HTTP/1.1[0m" 200 -
